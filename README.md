@@ -1,7 +1,4 @@
-# twfApi
-
-
-# Documentation 
+# twfApi Documentation 
 
 The api is running at : [https://twfapi.herokuapp.com/](https://twfapi.herokuapp.com/)
 
