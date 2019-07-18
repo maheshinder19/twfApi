@@ -23,6 +23,10 @@ app.use(logger("dev"));
 app.use(jsonParser());
 
 app.use("/order", orderRoute);
+app.get("/", (req, res, next) => {
+  res.send("twtflours assessment");
+});
+app.use("/order", orderRoute);
 
 // catch 404 and forward to error handler
 
