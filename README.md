@@ -17,6 +17,8 @@ So request body will look like:
     }
 
 
+(give weights in number of kg)
+
 ## Example
 I have used postman to make a get request to the api.
 
