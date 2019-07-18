@@ -3,7 +3,7 @@
 
 # Documentation 
 
-The api can be accessed through this url : [https://twfapi.herokuapp.com/](https://twfapi.herokuapp.com/)
+The api is running at : [https://twfapi.herokuapp.com/](https://twfapi.herokuapp.com/)
 
 
 # Format of input
@@ -23,10 +23,10 @@ The format of the request body will be an object with an array named order that 
 
 ## Example
 I have used postman to make a get request to the api.
-![postman](https://ibb.co/8PBCdft)
+![postman](https://i.ibb.co/7rzfRZL/postman.png)
 
 The response is as follows:
-![enter image description here](https://ibb.co/h80SMkm)
+![enter image description here](https://i.ibb.co/ry9Vtgw/response.png)
 
 
 ## To run on local machine
