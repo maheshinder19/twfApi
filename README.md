@@ -6,7 +6,8 @@ The api is running at : [https://twfapi.herokuapp.com/](https://twfapi.herokuapp
 # Format of input
 In order to get the result from the api, one need to make a get request to [https://twfapi.herokuapp.com/order](https://twfapi.herokuapp.com/).
 The format of the request body will be an object with an array named order that has details of the products ordered.
-**For example**, if an order consists of a "A" product, 2 "D" products and 2 "G" products. So request body will look like:
+**For example**, if an order consists of a "A" product, 2 "D" products and 2 "G" products. 
+So request body will look like:
 
     {
     	"order" :	[ 
@@ -16,13 +17,14 @@ The format of the request body will be an object with an array named order that 
     }
 
 
-
-
 ## Example
 I have used postman to make a get request to the api.
+
 ![postman](https://i.ibb.co/7rzfRZL/postman.png)
 
+
 The response is as follows:
+
 ![enter image description here](https://i.ibb.co/ry9Vtgw/response.png)
 
 
