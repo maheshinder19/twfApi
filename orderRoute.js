@@ -2,7 +2,7 @@ const express = require("express"),
   router = express.Router(),
   findMinCost = require("./minCost");
 
-// var mongoose = require("mongoose");
+
 
 //get  minimum cost
 
