@@ -4,8 +4,8 @@ The api is running at : [https://twfapi.herokuapp.com/](https://twfapi.herokuapp
 
 
 # Format of input
-In order to get the result from the api, one need to make a get request to [https://twfapi.herokuapp.com/order](https://twfapi.herokuapp.com/).
-The format of the request body will be an object with an array named order that has details of the products ordered.
+In order to get the result from the api, one need to make a POST request to [https://twfapi.herokuapp.com/order](https://twfapi.herokuapp.com/).
+The format of the request body will be a json object with an array named order that has details of the products ordered.
 **For example**, if an order consists of a "A" product, 2 "D" products and 2 "G" products. 
 So request body will look like:
 
@@ -35,4 +35,4 @@ The response is as follows:
    repo.***
    
  - ***The api will take requests on localhost:3000.***
- - ***Make a get request to localhost:3000/order to get the result in the above explained format.***
+ - ***Make a POST request to localhost:3000/order to get the result in the above explained format.***
