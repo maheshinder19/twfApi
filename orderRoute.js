@@ -6,7 +6,7 @@ const express = require("express"),
 
 //get  minimum cost
 
-router.get("/", (req, res, next) => {
+router.post("/", (req, res, next) => {
   if (req.body.order == undefined) {
     next({ message: "Please provide valid order input!" });
   } else {
